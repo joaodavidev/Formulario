@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylessheet" href="styles.css">
+    <title>Festa da Laurinha Lamborguti</title>
+</head>
+<body>
+    <div class="container">
+         <form action="https://api.staticforms.xyz/submit" method="post">
+
+            <label>Digite seu nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: João" required>
+            <br>
+            
+            <p>Qual seu gênero?</p>
+            <input type="radio" id="masculino" name="genero" required>
+            <label>Masculino</label>
+
+            <input type="radio" id="feminino" name="genero" required>
+            <label>Feminino</label>
+            <br>
+            <br>
+
+            <label>Digite sua data de Nacimento: </label>
+            <input type="date" id="data_nascimento" required>
+            <br>
+            <br>    
+
+            <label>Digite seu número de telefone: </label>
+            <input type="tel" id="Celular"name="Celular" placeholder="(ddd) 99999-9999">
+            <br>
+            <br>
+
+            <label>Digite seu CPF: </label>
+            <input type="text" id="CPF" name="CPF" placeholder="000.000.000-00">
+            <br>
+
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="26c15a3a-7d74-4aeb-aff4-fce72130b2b5">
+
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/formularios/obrigado.html">
+
+         </form>
+    </div>
+</body>
+</html>
